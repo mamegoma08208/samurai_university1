@@ -94,12 +94,12 @@
                 'category name' => 'news',
                 'post_per_page' => 3,
               );
-              $post = get_post($args);
+              $posts = get_post($args);
             ?>
             <?php foreach($posts as $post): ?>
             <?php setup_postdata($post); ?>
-            <div class="new_post_small">
-              <div class="new_post_meta">
+            <div class="news_post_small">
+              <div class="news_post_meta">
                 <ul>
                   <li>
                     <a href="<?php echo get_permalink(); ?>">
@@ -132,8 +132,9 @@
             $posts = get_posts($args);
             ?>
             <?php foreach($posts as $post): ?>
+
               <?php setup_postdata($post); ?>
-              <div class="new_post_small">
+              <div class="news_post_small">
                 <div class="row news_post_row">
                   <div class="col-lg-3 col-md-4 col-sx-12">
                     <div class="calendar_border">
@@ -151,12 +152,12 @@
                   </div>
                 </div>
                 <div class="col-lg-9 col-md-8 col-sx-12">
-                  <div class="new_post_small_title">
+                  <div class="news_post_small_title">
                     <a href="<?php the_permalink(); ?>">
                       <?php the_title(); ?>
                     </a>
                   </div>
-                  <div class="new_post_content">
+                  <div class="news_post_content">
                     <?php
                     $content = wp_trim_words(get_the_content(), 50, '...');
                     echo $content;
@@ -164,12 +165,11 @@
                   </div>
                 </div>
               </div>
-            </div>
-           <?php endforeach; ?>
-           <?php wp_reset_postdata(); ?>     
-          </div>
-          <!-- イベントここまで -->
+              <?php endforeach; ?>
+           <?php wp_reset_postdata(); ?>  
+          </div>    
         </div>
+          <!-- イベントここまで -->
       </div>
     </div>
     <!-- ニュースとイベントここまで -->
