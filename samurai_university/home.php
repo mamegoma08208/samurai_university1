@@ -91,12 +91,12 @@
             <?php
               $args = array(
                 'post_type' => 'post',
-                'category name' => 'news',
-                'post_per_page' => 3,
+                'category_name' => 'news',
+                'posts_per_page' => 3,
               );
-              $posts = get_post($args);
+              $posts = get_posts($args);
             ?>
-            <?php foreach($posts as $post): ?>
+            <?php foreach($posts as $post): ?> 
             <?php setup_postdata($post); ?>
             <div class="news_post_small">
               <div class="news_post_meta">
