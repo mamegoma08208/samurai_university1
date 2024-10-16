@@ -22,6 +22,7 @@
                     <div class="col-lg-8">
                         <div class="course_tabs_container">
                             <div class="tab_panels">
+                              <div class="tab_panel">
                                 <div class="tab_panel_title"><?php the_title(); ?></div>
                                 <?php the_content(); ?>
                             </div>
