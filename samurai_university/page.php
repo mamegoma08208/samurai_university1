@@ -25,10 +25,10 @@
                               <div class="tab_panel">
                                 <div class="tab_panel_title"><?php the_title(); ?></div>
                                 <?php the_content(); ?>
+                              </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
+                         </div>
+                       </div>
 
         <!-- Course Sidebar -->
         <div class="col-lg-4" style="background-color: #2b7b8e33">
@@ -38,6 +38,7 @@
     </div>
     <?php endwhile; ?>
     <?php endif; ?>
+    
 
     <!-- footer.php ここから -->
     

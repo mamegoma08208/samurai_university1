@@ -53,13 +53,13 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo home_url();?>/category/course">
+                  <a class="nav-link" href="<?php echo home_url();?>/course">
                     COURSES
                     <p>コース</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo home_url();?>/category/about_us">
+                  <a class="nav-link" href="<?php echo home_url();?>/about_us">
                     ABOUT US
                     <p>侍大学について</p>
                   </a>

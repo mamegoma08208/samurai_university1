@@ -72,6 +72,7 @@
                                         echo '無料';
                                     }else{
                                         echo '¥'.number_format(post_custom('fee'));
+                                    }
                                     ?></span>
                             </div>
                           </div>
@@ -93,7 +94,7 @@
             </div>
           </div>
         </div>
-        <?php endwhile;?>
+        <?php endwhile; ?>
         <?php endif; ?>
 
         <!--  Sidebar -->

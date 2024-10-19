@@ -2679,3 +2679,28 @@ section {
   width: 100%;
   height: 350px;
 }
+
+.sidebar_search{
+  width: 100%
+}
+
+.sidebar_search input{
+  width: 171px;
+  height: 44px;
+  border: solid 1px #d9d9d9;
+  background: #ffffff;
+  padding-left: 20px;
+}
+
+.sidebar_search button{
+  width: 44px;
+  height: 44px;
+  background: #b39a6b;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
